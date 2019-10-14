@@ -1,0 +1,178 @@
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  
+}
+
+.navbar {
+    border-bottom: 5px;
+    box-shadow: 5px;
+    background-color: aquamarine
+}
+
+#intro {
+    background-image: linear-gradient(to right, rgb(30, 221, 157), rgb(223, 236, 31))
+}
+
+.img-on {
+    width: 10%;
+    padding-top: 20px
+}
+
+.icons {
+    
+    color: rgb(30, 221, 157);
+}
+
+.icon {
+    position: relative;
+    
+    color: rgb(30, 221, 157);
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin: 0px auto 10px auto;
+
+}
+
+.line-1 {
+    width: 30%;
+    height: 2px;
+    background-color: rgb(31, 209, 200);
+    margin: 10px auto 10px auto;
+
+}
+
+.bg-red-darker{
+    background-color: rgb(133, 16, 16)
+}
+
+.img-1{
+    position: relative;
+    left: 30px
+}
+
+.img-fit {
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    border-color: black;
+    outline-width: 2px
+}
+
+.dis {
+    background-color: beige;
+    padding: 10px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.kuning {
+    color: rgb(223, 236, 31);
+}
+
+.parallax-2 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/02/Jakarta_cityscape%3B_March_2011.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.oman-parallax {
+    background-image: url('http://tamantahfidzfirdaus.com/wp-content/uploads/2019/03/Rumput-Raja.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fix {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.bg-blue {
+    background-color: deepskyblue;
+}
+
+.bg-green {
+    background-color: darkgreen;
+}
+
+.bg-blues {
+    background-color: darkblue;
+}
+
+.bg-grey {
+    background-color: rgb(227, 230, 231);
+}
+
+.shadow {
+    border-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.cover {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    margin-left: 0px;
+    background-color: black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    left: 0px;
+    top: 0px;
+
+}
+
+.outline {
+    padding: 10px;
+    border: 5px;
+}
+
+.kekanan{
+    animation-name: gerak;
+    animation-delay: 1s;
+    position: relative;
+    animation-duration: 2s;
+    animation-iteration-count: infinite
+}
+
+@keyframes gerak{
+    0%{ left: 0; } 
+    
+    100%{ left: 60px; }
+}
+
+.quote {
+    width: 500px;
+
+}
+
+.testimonial{
+    margin: auto;
+    align-content: center
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+.coret{
+    text-decoration: line-through;
+}
+
+.fade {
+    margin-top: -50px;
+    box-shadow: 5px 5px black
+  }
